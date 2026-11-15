@@ -24,5 +24,7 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
   user's MCQ book Q173–293 with the book's answer key), `granuloma-practical-pictures.json` (26 syllabus photographs
   `gp-prac-01…26` → t14 sections), `granuloma-practical-cases.json` (13 practicals `gp-pr-01…13`), `granuloma-spotter-questions.json`
   (52, `gp-sp-NN`) and `granuloma-ospe-stations.json` (14, `gp-os-NN`).
+- 🎓 Viva Examination (2026-11-15, patch `viva`): the bank `granuloma-viva-bank.json` (75 questions `viva_gp_tNN_NN`, 5 marks each, ≥ 5 per topic,
+  18 picture questions) is delivered to the user and imported in ✏️ Edit master draft → 🎓 Viva → ⬆ Import viva bank — never committed.
 - Test changes on the real page with the platform repo's e2e test "Granulomatous and Parasitic Diseases module (granuloma)"
   (`GP_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
