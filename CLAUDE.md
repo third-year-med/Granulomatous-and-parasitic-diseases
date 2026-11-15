@@ -20,6 +20,7 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
   questions q001–q181, cases c01–c10, syllabus figures `fig6_1`…`fig6_31` (embedded, credit "Course syllabus … p. N"),
   atlas pictures `gp-img-NNN` (Wikimedia Commons, licence per file). The practical topic is **t14** (the app code's two
   "How to answer a practical" references point at t14).
+- Build 1.1 (2026-11-15): section **s0103** "Classification and types of granulomatous inflammation" (the user's classification diagram, redrawn as the vector figure `fig1_class`) sits SECOND in topic t01, so it is shown as 1.2 and the old s0102 (Causes, Table 6.1) as 1.3 — IDs unchanged. Go live follows docs/REBUILD.md.
 - Delivered to the user directly, never committed: `granuloma-assessment-bank.json` (🔒 91 items `aqb_gp_NNN[letter]` from the
   user's MCQ book Q173–293 with the book's answer key), `granuloma-practical-pictures.json` (26 syllabus photographs
   `gp-prac-01…26` → t14 sections), `granuloma-practical-cases.json` (13 practicals `gp-pr-01…13`), `granuloma-spotter-questions.json`
