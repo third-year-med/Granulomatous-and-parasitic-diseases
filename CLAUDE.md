@@ -37,5 +37,7 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
 - **Practical pictures in the topics (2026-11-16, platform rule HANDBOOK §4.4):** all 156 practical pictures also added to their Learn
   sections as `gp-tp-NNN` (same number as `gp-prac2-NNN`, caption without "Case N —"), delivered as `granuloma-pictures-topics-3.json`
   (topics 2–9, 85) and `-topics-4.json` (topics 10–13, 71) — never committed; rehearsed on the real page (156 added).
+  Then (same day, user: one picture per finding) `granuloma-pictures-remove-repeats.json` removes 92 repeats (gp-pic and gp-tp) from 31
+  sections — 148 imported topic pictures stay; syllabus figures and atlas untouched; rehearsed (240 → 148).
 - Test changes on the real page with the platform repo's e2e test "Granulomatous and Parasitic Diseases module (granuloma)"
   (`GP_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
