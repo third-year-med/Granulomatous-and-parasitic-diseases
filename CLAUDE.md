@@ -34,5 +34,8 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
   Delivered (never committed): 4 picture files (`gp-pic-NNN` topics 84, `gp-prac2-NNN` practical 156, from the user's ExpertPath/WebPath ZIP +
   8 old syllabus pictures), 14 practical cases `gp-pr2-NN` (one merged question group; replaces the 13 old), Spotter 91 `gp-sp2-NNN`
   (38 hardest in Practice), OSPE 18 `gp-os2-NN`, 🔒 bank 53 `aqb_gpp_*`.
+- **Practical pictures in the topics (2026-11-16, platform rule HANDBOOK §4.4):** all 156 practical pictures also added to their Learn
+  sections as `gp-tp-NNN` (same number as `gp-prac2-NNN`, caption without "Case N —"), delivered as `granuloma-pictures-topics-3.json`
+  (topics 2–9, 85) and `-topics-4.json` (topics 10–13, 71) — never committed; rehearsed on the real page (156 added).
 - Test changes on the real page with the platform repo's e2e test "Granulomatous and Parasitic Diseases module (granuloma)"
   (`GP_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
