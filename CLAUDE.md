@@ -1,7 +1,7 @@
 # CLAUDE.md — a module of the Interactive Pathology Teaching Platform
 
 This repository is one module (a single `index.html`): **Granulomatous and Parasitic Diseases** (module key `granuloma`,
-storage prefix `gp_`, build `1.0`). Built 2026-11-04 from the user's own syllabus "Chapter 6: Granulomatous and Parasitic
+storage prefix `gp_`, build `1.2`). Built 2026-11-04 from the user's own syllabus "Chapter 6: Granulomatous and Parasitic
 Diseases" (pp. 116–153) **as it is — NOT condensed** (like Inflammation (New) and Neoplasia (New)), plus the practical book
 Exercises 14–17, with the app code of `third-year-med/neoplasia-new`. Served at
 `https://third-year-med.github.io/Granulomatous-and-parasitic-diseases/` (the repository name has a capital G).
@@ -27,5 +27,12 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
   (52, `gp-sp-NN`) and `granuloma-ospe-stations.json` (14, `gp-os-NN`).
 - 🎓 Viva Examination (2026-11-15, patch `viva`): the bank `granuloma-viva-bank.json` (75 questions `viva_gp_tNN_NN`, 5 marks each, ≥ 5 per topic,
   18 picture questions) is delivered to the user and imported in ✏️ Edit master draft → 🎓 Viva → ⬆ Import viva bank — never committed.
+- **Picture and practical rebuild (2026-11-16, build 1.2 — includes the other chat's pending 1.1 section s0103):** 22 blurred syllabus scans
+  taken out of their topic sections (diagrams 6.1/6.4/6.8/6.9/6.22/6.31 and photos 6.10/6.15/6.27 kept; text references to the removed
+  figures deleted), atlas gp-img-004/005 hidden; t14 = 14 cases (s1402 + s1412–s1422) and galleries s1423–s1426; s1403–s1411 retired
+  (intestinal TB, cysticercosis, candidiasis, aspergillosis, rhinosporidiosis deleted by the user, with q169–q173, q175; q178/q179 edited).
+  Delivered (never committed): 4 picture files (`gp-pic-NNN` topics 84, `gp-prac2-NNN` practical 156, from the user's ExpertPath/WebPath ZIP +
+  8 old syllabus pictures), 14 practical cases `gp-pr2-NN` (one merged question group; replaces the 13 old), Spotter 91 `gp-sp2-NNN`
+  (38 hardest in Practice), OSPE 18 `gp-os2-NN`, 🔒 bank 53 `aqb_gpp_*`.
 - Test changes on the real page with the platform repo's e2e test "Granulomatous and Parasitic Diseases module (granuloma)"
   (`GP_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
